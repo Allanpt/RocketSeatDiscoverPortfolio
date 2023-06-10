@@ -64,12 +64,17 @@ body *{
 }
 /* Switch*/
 #switch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
+    width: 64px;
+    position: relative;
+    margin: 8px auto; /*Alinhamento de elementos display block*/
 }
 #switch button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+
     background: white var(--switch-handle) no-repeat center ;
     width: 32px;
     height: 32px;
@@ -78,11 +83,18 @@ body *{
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
 }
 #switch span{
+    display: block;
     width: 64px;
     height: 24px;
     border-radius: 9999px;
     background-color: var(--surface-color);
+    border: 1px solid var(--stroke-color);
+    -webkit-backdrop-filter: blur(4px);
 
+}
+.light #switch button {
+    right: 0;
+    left: initial;
 }
 /* Links*/
 #links {

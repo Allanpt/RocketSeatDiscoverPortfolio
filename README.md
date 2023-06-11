@@ -7,7 +7,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://allanpt.github.io/RocketSeatDiscoverPortfolio/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://allanpt.github.io/RocketSeatDiscoverPortfolio/index.html">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-## 💻 Projeto - [Acesse aqui](https://allanpt.github.io/RocketSeatDiscoverPortfolio/)
+## 💻 Projeto - [Acesse aqui](https://allanpt.github.io/RocketSeatDiscoverPortfolio/index.html)
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 

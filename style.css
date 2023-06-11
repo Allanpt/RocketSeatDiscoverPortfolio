@@ -42,7 +42,7 @@ body *{
     color: var(--text-color);
 }
 #language {
-    width: 80px;
+    width: 60px;
     height: 30px;
     position: absolute;
     right: 20%;
@@ -52,23 +52,25 @@ body *{
     position: absolute;
     right: 0;
     background: url(./assets/bandeira-do-brasil.jpg) no-repeat top center/cover;
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     border-radius: 10px;
 }
 #language .estados-unidos {
     position: absolute;
     background: url(./assets/bandeira-estados-unidos.jpg) no-repeat top center/cover;
-    width: 40px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     border-radius: 10px;
 }
-
+#language button {
+    cursor: pointer;
+}
 #language span {
     display: block;
     background-color: rgb(73, 52, 52);
-    width: 80px;
-    height: 32px;
+    width: 60px;
+    height: 22px;
     border-radius: 10px;
 }
 #container {

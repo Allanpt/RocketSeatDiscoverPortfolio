@@ -41,7 +41,36 @@ body *{
     font-family: 'Inter', sans-serif;
     color: var(--text-color);
 }
+#language {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    right: 20%;
+    top: 1%;
+}
+#language .brasil {
+    position: absolute;
+    right: 0;
+    background: url(./assets/bandeira-do-brasil.jpg) no-repeat top center/cover;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+#language .estados-unidos {
+    position: absolute;
+    background: url(./assets/bandeira-estados-unidos.jpg) no-repeat top center/cover;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
 
+#language span {
+    display: block;
+    background-color: rgb(73, 52, 52);
+    width: 80px;
+    height: 32px;
+    border-radius: 10px;
+}
 #container {
     width: 100%;
     max-width: 588px;
